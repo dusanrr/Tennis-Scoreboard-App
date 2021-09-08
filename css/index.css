@@ -1,0 +1,41 @@
+html {
+	min-height: 100vh;
+	font-size: 3vw;
+	background: #79383d url("https://idsb.tmgrup.com.tr/ly/uploads/images/2020/12/02/76384.jpg") no-repeat 0 100%;
+	background-size: cover;
+}
+.centeredTable th, .centeredTable tr  {
+	text-align: center;
+}
+#scoreScreen  {
+	text-align: center;
+}
+.container {
+	margin-top: 2em;
+    overflow-x:hidden;
+    width:50%;
+    position:absolute;
+}
+.hidden {
+	display: none;
+}
+.btn {
+	margin: 1px;
+}
+
+select.form-control {
+  min-width: 70px;
+}
+
+#admin_p1name, #admin_p2name {
+	min-width: 200px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+/* we should implement bootstrap 4 */
+.mb-2 {
+  margin-bottom: 10px;
+}
